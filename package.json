@@ -1,0 +1,30 @@
+{
+  "name": "ics",
+  "version": "1.0.0",
+  "description": "Create ics file and send it via mail.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grayback90/node-ics.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "js",
+    "ics"
+  ],
+  "author": "Kenny Mäder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grayback90/node-ics/issues"
+  },
+  "homepage": "https://github.com/grayback90/node-ics#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "ics": "^3.1.0",
+    "nodemailer": "^6.9.1"
+  }
+}
